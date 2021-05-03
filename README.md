@@ -2,6 +2,13 @@
 2021 web team project 
 
 
+## Subject
+
+## Plan
+
+## unctional diagram
+
+
 ## team
 [seyoungs](https://github.com/seyoungs)
 
