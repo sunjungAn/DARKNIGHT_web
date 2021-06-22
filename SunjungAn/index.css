@@ -1,0 +1,213 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style:none;
+    text-decoration:none;
+    border-collapse:collapse;
+    margin:0px;
+    padding:0px;
+    color: black;
+}
+
+ul{
+  list-style: none;
+}
+
+.header{
+    display:flex;
+    width:100%;
+    background-color:rgb(241, 196, 15);
+    margin:auto;
+    height:80px;
+}
+
+.mark{
+    background-image: url("ch_1.png");
+    width: 75px;
+    height: 75px;
+    margin: auto;
+}
+
+div > h1{
+    position:relative;
+    margin:13px auto;
+}
+
+.nav{
+    display:flex; /*항목들을 가로로 배열해준다.*/
+    line-height: 86px;
+    width:calc(1280px - 300px);
+    margin:-3px -30px;
+    
+ }
+ 
+ .nav>li{
+    margin-left:85px;
+    
+ }
+ .nav>li>a{
+    color: #fff;
+    color:black;
+    font-size:large;
+    font-weight:bold;
+ }
+
+.searcharea{
+   width: 280px;
+   height:40px;
+   background: white;
+   border-radius: 5px; /* 모서리를 둥글게 한다.*/
+   margin:18px 40px;
+}
+.searcharea>form>input{
+   border:none;
+   border-radius: 5px;
+   width:230px; /*검색 내려가면 이거 조절*/
+   height:40px;
+   background: white;
+   color: black;
+   font-size:large;
+   font-weight: bold;
+   padding-left:10px;  
+}
+.searcharea>form>span{
+   width:50px;
+   color:black;
+   font-weight:bold;
+   cursor: pointer;
+}
+
+/*------------------배경--------------*/
+.intro_bg{
+    background-image:url("activity_year.png");*/ /*주소를 적을 때, bg.png 앞에 상위 주소를 /을 사용해 적을 수 있다.*/
+    border:none;
+    background-color:grey;
+    width:100%;
+    height:500px;
+    z-index: -1;
+    position:relative;
+    top:-13px;
+    margin-bottom: -13px; 
+}
+
+.intro_bg > h1,
+.intro_bg > h4{
+    color : black;
+    text-align:center;
+    position: relative;
+    top:35px;
+
+}
+.intro_bg > h3{
+    color:black;
+    position: relative;
+    top: 47px;
+    text-align:right;
+    margin-right:10px;
+    margin-top:-10px;
+}
+
+
+.tls{
+    background-color: black;
+    text-align:center;
+    color:white;
+    font-size:large;
+    font-weight: bold;
+}
+
+#tabMenu{
+  float:left; /*왼쪽으로 플로팅*/
+  margin-left: 40%;
+  width: 600px;
+  height: 100%;
+}
+
+#tabMenu input[type="radio"]{
+  display: none; /*라디오 버튼 감춤*/
+}
+
+#tabMenu label{
+  display: inline-block;
+  margin: 0 0;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #aaa;
+  border: 1px solid transparent;
+}
+
+#tabMenu label:hover{
+  color: #222;
+  cursor: pointer;
+}
+#tabMenu input:checked + label{
+  color: #b00;
+  border: 1px solid #ddd;
+  background-color: #eee
+}
+
+.tabContent{
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+
+#twenty_one ul{
+  list-style: disc;
+  margin-left: 30px;
+}
+
+#twenty_one ul li{
+  font-size: 20px;
+  line-height:2.5;
+}
+
+#twenty_one ul li div li{
+  font-size: 16px;
+}
+
+#twenty ul{
+  list-style: disc;
+  margin-left: 30px;
+}
+
+#twenty ul li{
+  font-size: 20px;
+  line-height:2.5;
+}
+
+#ninteen ul{
+  list-style: disc;
+  margin-left: 30px;
+}
+
+#ninteen ul li{
+  font-size: 20px;
+  line-height:2.5;
+}
+
+#eighteen ul{
+  list-style: disc;
+  margin-left: 30px;
+}
+
+#eighteen ul li{
+  font-size: 20px;
+  line-height:2.5;
+}
+
+#tab1:checked ~ #twenty_one{
+  display: block;
+}
+#tab2:checked ~ #twenty {
+  display: block;
+}
+
+#tab2:checked ~ #ninteen {
+  display: block;
+}
+#tab2:checked ~ #eighteen {
+  display: block;
+}
+
+
