@@ -1,0 +1,89 @@
+<!Doctype html>
+<html lang="ko">    
+    <head><link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
+    </head><!--구글 폰트이다.-->
+        <link rel="stylesheet" type="text/css" href="index.css"><!--css파일을 가져옴. 이 파일 안에 내용은 <style>안에 넣어도 상관 없음.-->
+    <body>
+        <div class = "wrap">
+            
+            <div class = "header">
+                
+                <div class = "mark">
+                    
+                </div>
+                
+                <div>
+                    <h1>Inyro</h1>
+                </div>
+               
+                <div>
+                    <ui class = "nav"> <!-- 이 항목들은 리스트로 묶어야 한다.-->
+                        <li><a href="#">관련 정보</a></li> <!--home을 누르면 이동해야 하기 떄문에 <a>를 사용한다.-->
+                        <li><a href="#">활동 게시물</a></li>
+                        <li><a href="#">오시는 길</a></li>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">Q&A</a></li>
+                    </ui>
+                </div>
+                
+                <div>
+                    <div class = "searcharea"> <!-- 검색 창 생성-->
+                        <form>
+                            <input type="search" placeholder="search">
+                            <span>검색</span>
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
+                <!-- 여기까지 header 무야호~~ -->
+
+            <div class = "intro_bg">
+                <img src = "activity.png" width="100%" height="600vh">
+                <h3>Home > 활동 게시물</h3>
+                <h1>Activities</h1>
+                <br>
+                <hr>
+                <div id = "year">
+                    <div id = "tabMenu">
+                        <input type= "radio" id = "tab1" name = "tabs" checked>
+                        <label for="tab1">2021</label>
+
+                        <input type= "radio" id = "tab2" name = "tabs">
+                        <label for="tab2">2020</label>
+
+                        <input type= "radio" id = "tab3" name = "tabs">
+                        <label for="tab3">2019</label>
+
+                        <input type= "radio" id = "tab4" name = "tabs" >
+                        <label for="tab4">2018</label>
+
+                       
+                        <div id = "twenty_one" class="tabContent">
+                            <h2> 2021 Activities </h2>
+                            <ul>
+                                <br>
+                                <hr>
+                                <li>DarkNight WEB Study</li>
+                                <li><img src = "activity.png" width="40%" height="200vh"></li>
+                                <li>이니로 홈페이지 만들기<br> member: 안선정, 서유림, 신세영, 배은기</li>
+
+                            </ul>
+                        </div>
+
+                        <div id = "twenty" class="tabContent">
+                            <h2> 2020 Activities </h2>
+                            <ul>
+                                <br>
+                                <hr>
+                                <li>DataStructure Study</li>
+                                <li>C programming 2 Study</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
