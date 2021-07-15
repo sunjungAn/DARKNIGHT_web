@@ -25,3 +25,7 @@ Inyro Web Site
 [sunjungAn](https://github.com/sunjungAn)
 
 [ulimsss](https://github.com/ulimsss)
+
+
+## refer
+https://www.tutorialspoint.com/jsp/jsp_database_access.htm
